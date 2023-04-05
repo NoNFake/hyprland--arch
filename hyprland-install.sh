@@ -1,17 +1,1 @@
-#!/bin/bash
-
-# Install dependencies
-sudo pacman -Syu --noconfirm base-devel git nodejs npm
-
-# Clone Hyprland repository
-git clone https://github.com/hyprland/hyprland.git
-cd hyprland
-
-# Install Node.js packages
-npm install
-
-# Build Hyprland
-npm run build
-
-# Start Hyprland server
-npm start
+yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
